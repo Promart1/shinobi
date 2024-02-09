@@ -711,8 +711,8 @@ margin-right: 37px;
         
         
         .second__sticker {
-            top: 40px;
-            right: 25px;
+            top: 60px;
+            right: 70px;
             width: 116px;
             height: 116px;
         }
@@ -871,6 +871,7 @@ margin-right: 37px;
     .second__inner {
         margin-top: 106px;
         display: block;
+        margin-left: 60px;
         
     }
 
@@ -893,9 +894,78 @@ margin-right: 37px;
         margin-left: 11px;
     }
 
-    .second__items {
+    /* .second__items {
         text-align: start;
+    } */
+
+
+    .second__title {
+        margin-top: 49px;
+        margin-left: 55px;
+        text-align: start;
+        margin-right: 0;
     }
+
+    .second__list {
+        margin-left: 0;
+    }
+
+    .arrow-r {
+        display: none;
+    }
+
+    .arrow-l {
+        display: block;
+        margin-left: 26px;
+        margin-right: 16px;
+    }
+
+    .second__items .second__item:nth-last-child(4) {
+        max-width: 370px;
+        margin-left: 0;
+        margin-bottom: 25px;
+      }
+
+      .second__items .second__item p:nth-last-child(3) {
+       margin-right: -15px;
+       margin-bottom: 4px;
+       font-size: 14px;
+      }
+
+      /* .second__items .second__item p:nth-last-child(3) {
+        margin-right: -25px;
+
+       } */
+      
+      .second__items .second__item:nth-last-child(1) {
+        max-width: 300px;
+        margin-left: 0;
+
+        }
+
+        .second__items .second__item:nth-last-child(2) {
+            margin-bottom: 15px;
+        }
+
+
+        .second__img-wrapper {
+            margin-left: -15%;
+        }
+
+      
+        .second__items {
+            margin-top: 24px;
+            text-align: start;
+        }
+
+        .second__item {
+            gap: 25px;
+        }
+
+        .second__container {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
 
     .third__inner {
         margin-top: 200px;
@@ -1018,83 +1088,24 @@ margin-right: 37px;
         height: 116px;
     }
 
-    .second__title {
-        margin-top: 49px;
-        margin-left: 55px;
-        text-align: start;
-        margin-right: 0;
-    }
-
-    .second__list {
-        margin-left: 0;
-    }
-
-    .arrow-r {
-        display: none;
-    }
-
-    .arrow-l {
+    .second__inner {
+        margin-top: 80px;
         display: block;
-        margin-left: 26px;
-        margin-right: 16px;
+        margin-left: 0;
     }
 
-    .second__items .second__item:nth-last-child(4) {
-        max-width: 370px;
-        margin-left: 0;
-        margin-bottom: 25px;
-      }
+    .second__sticker {
+        right: 55px;
+    }
 
-      .second__items .second__item p:nth-last-child(3) {
-       margin-right: -15px;
-       margin-bottom: 4px;
-       font-size: 14px;
-      }
-
-      /* .second__items .second__item p:nth-last-child(3) {
-        margin-right: -25px;
-
-       } */
-      
-      .second__items .second__item:nth-last-child(1) {
-        max-width: 300px;
-        margin-left: 0;
-
-        }
-
-        .second__items .second__item:nth-last-child(2) {
-            margin-bottom: 15px;
-        }
-
-        .second__inner {
-            margin-top: 80px;
-            display: block;
-        }
-
-        .second__img-wrapper {
-            margin-left: -15%;
-        }
-
-        .second__sticker {
-            right: 55px;
-        }
-      
-        .second__items {
-            margin-top: 24px;
-        }
-
-        .second__item {
-            gap: 25px;
-        }
-
-        .second__container {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
 
         .third__container-mob {
             padding-left: 60px;
             
+        }
+
+        .third__title {
+            font-size: 29px;
         }
     
 }
@@ -1176,13 +1187,31 @@ margin-right: 37px;
         width: 210px;
     }
 
-    .second__sticker {
-        
-        right: -8%;
-    }
+   
 
     .third__title {
         font-size: 23px;
+        margin-left: 0;
+    }
+
+    .third__number {
+        font-size: 50px;
+    }
+
+    .third__number {
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 325px) {
+    .second__sticker {
+        
+        right: 1%;
+    }
+
+    .third__title {
+        font-size: 19px;
         margin-left: 0;
     }
 }
