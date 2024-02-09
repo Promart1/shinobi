@@ -12,3 +12,7 @@ menuClose.addEventListener('click', ()=>{
     menuList.classList.remove('menu__list--open');
     menuShadow.classList.remove('menu--open');
 });
+
+// function toggleActive(element) {
+//     element.classList.toggle('active');
+// }
