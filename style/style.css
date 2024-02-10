@@ -27,6 +27,7 @@ body {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 
 p,
@@ -551,10 +552,45 @@ margin-right: 37px;
 
 
 
+/* //////////////////////FOURTH_SECTION//////////////////////////// */
 
+.fourth {
+    /* background: rgb(22, 22, 24);
+    width: 100%;
+    height: 290px;
+    transform-origin: top;
+    transform: skewY(-5deg); */
+    position: relative;
+}
 
+.fourth__container {
+    background: rgb(22, 22, 24);
+    width: 100%;
+    height: 290px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 48%, 100% 0, 100% 100%, 0% 100%);
+}
 
-
+.repeated-word {
+    white-space: nowrap;
+    overflow: hidden;
+    width: 108%;
+    font-family: 'Orbitron';
+    font-size: 100px;
+    font-weight: 500;
+    line-height: 125px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 8px;
+    left: -170px;
+    z-index: 2;
+    text-align: center;
+    transform: rotate(-3.87deg);
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(136, 136, 136, 0.52);
+}
 
 
 
