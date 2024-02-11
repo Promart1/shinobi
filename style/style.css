@@ -555,41 +555,68 @@ margin-right: 37px;
 /* //////////////////////FOURTH_SECTION//////////////////////////// */
 
 .fourth {
-    /* background: rgb(22, 22, 24);
-    width: 100%;
-    height: 290px;
-    transform-origin: top;
-    transform: skewY(-5deg); */
     position: relative;
 }
 
 .fourth__container {
     background: rgb(22, 22, 24);
-    width: 100%;
-    height: 290px;
+   width: 100%;
+    height: 750px;
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: polygon(0 48%, 100% 0, 100% 100%, 0% 100%);
+    clip-path: polygon(0 18%, 100% 0, 100% 100%, 0% 100%);
 }
 
 .repeated-word {
     white-space: nowrap;
     overflow: hidden;
-    width: 108%;
+    max-width: 100%;
     font-family: 'Orbitron';
-    font-size: 100px;
+    /* font-size: 100px; */
+    font-size: 5.25vw;
     font-weight: 500;
     line-height: 125px;
     text-transform: uppercase;
     position: absolute;
     top: 8px;
-    left: -170px;
+    left: 0;
     z-index: 2;
     text-align: center;
     transform: rotate(-3.87deg);
     color: transparent;
     -webkit-text-stroke: 1px rgba(136, 136, 136, 0.52);
+}
+
+.fourth__wrapper {
+    margin-top: 312px;
+    margin-bottom: 55px;
+    display: flex;
+}
+
+.fourth__block {
+    margin-right: 252px;
+}
+
+.forth__title {
+    /* margin-left: -16px; */
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 35px;
+    color: var(--secondary-text-color);
+    text-decoration: underline;
+    text-decoration-color: var(--secondary-bg-color);
+    text-decoration-style: solid;
+    font-style: italic;
+}
+
+.fourth__text {
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 94px;
+    text-transform: uppercase;
+    margin-top: 30px;
+    margin-left: 80px;
 }
 
 
@@ -617,6 +644,13 @@ margin-right: 37px;
 
 
   /* //////////////////////MEDIA//////////////////////////// */
+
+  @media (max-width: 1441px) {
+    .fourth__container {
+        top: 15px;
+        clip-path: polygon(0 13%, 100% 0, 100% 100%, 0% 100%);
+    }
+  }
 
   @media (max-width: 1250px) {
     .first__analisys-list-s {
@@ -784,6 +818,28 @@ margin-right: 37px;
         }
         .second__item img {
             width: 38px;
+        }
+
+        .fourth__container {
+            top: 30px;
+            clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
+        }
+
+         .forth__block:nth-child(1) {
+            margin-right: 252px;
+         }
+
+                 .fourth__block {
+                     margin-right: 150px;
+                 }
+        
+        .forth__title {
+            font-size: 25px;
+        }
+        
+        .fourth__text {
+         font-size: 65px;
+         margin-left: 40px;
         }
         
 }
@@ -1102,6 +1158,28 @@ margin-right: 37px;
      .third__item:nth-child(4) {
         margin-bottom: 43px;
      } 
+
+     .fourth__container {
+        top: 40px;
+        clip-path: polygon(0 7%, 100% 0, 100% 100%, 0% 100%);
+    }
+
+    .fourth__wrapper {
+        display: block;
+        margin-top: 200px;
+    }
+
+.forth__title {
+    margin-left: 15%;
+}
+
+    .fourth__text {
+       text-align: center;
+    }
+        .fourth-btn {
+            display: block;
+            margin-top: 30px;
+        }
 }
 
 @media (max-width: 426px) {
@@ -1141,8 +1219,37 @@ margin-right: 37px;
         }
 
         .third__title {
-            font-size: 29px;
+            font-size: 28px;
         }
+
+        .repeated-word {
+            font-size: 8.5vw;
+            top: 65px;
+        }
+
+        .fourth__container {
+            top: 110px;
+            clip-path: polygon(0 4%, 100% 0, 100% 100%, 0% 100%);
+        }
+
+        .forth__title {
+            font-size: 20px;
+            margin-left: 5%;
+        }
+
+      .fourth__wrapper {
+            margin-top: 109px;
+            margin-bottom: 10px;
+        }
+
+        .fourth__text {
+            font-size: 40px;
+            margin-left: 15px;
+            margin-top: 12px;
+            margin-bottom: 24px;
+        }
+
+    
     
 }
 
@@ -1249,5 +1356,9 @@ margin-right: 37px;
     .third__title {
         font-size: 19px;
         margin-left: 0;
+    }
+    .fourth__container {
+        top: 120px;
+        clip-path: polygon(0 2%, 100% 0, 100% 100%, 0% 100%);
     }
 }
