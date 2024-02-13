@@ -953,13 +953,63 @@ z-index: 2;
 }
 
 
+/* //////////////////////CAMPAIGN_SECTION//////////////////////////// */
 
+.campaign__inner {
+    margin-top: 118px;
+}
 
+.campagn__desc {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 63px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
 
+.campagn__desc-spec {
+    color: var(--secondary-text-color);
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 59px;
+    text-transform: uppercase;
+    font-style: italic;
+    text-align: end;
+    margin-right: 80px;
+}
 
+.campaign__title {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 143px;
+    font-weight: 700;
+    line-height: 179px;
+    text-align: right;
+    text-transform: uppercase;
+    margin-right: 80px;
+}
 
+.campaign__text {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 155.4%;
+    margin-top: 50px;
+}
 
+.campaign__first {
+    color: #888888;
+    font-style: italic;
+}
 
+.campaign__second {
+    color: var(--secondary-text-color);
+    border-radius: 20px;
+    font-style: italic;
+    padding-right: 9px;
+    padding-left: 9px;
+    box-shadow: 0px 4px 15px 0px rgb(0, 0, 0);
+    background: linear-gradient(180.00deg, rgb(27, 27, 27), rgba(27, 27, 27, 0) 100%);
+}
 
 
 
@@ -1218,6 +1268,34 @@ z-index: 2;
    .about__block {
     margin-right: auto;
     margin-left: auto;
+   }
+
+   .campagn__desc {
+       font-size: 40px;
+       line-height: 53px;
+   }
+
+   .campagn__desc-spec {
+       font-size: 40px;
+       line-height: 50px;
+       margin-right: 0;
+   }
+
+   .campaign__title {
+       font-size: 100px;
+       margin-right: 0;
+   }
+
+   .campaign__text {
+       font-size: 20px;
+   }
+
+   .campaign__second {
+    display: block;
+    max-width: 300px;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
    }
 }
 
@@ -1941,6 +2019,46 @@ width: 100%;
     font-size: 13px;
     line-height: 15px;
 }
+
+.campaign__inner {
+    margin-top: 120px;
+}
+
+ .campagn__desc {
+     font-size: 20px;
+     line-height: 25px;
+     letter-spacing: 0;
+ }
+
+ .campagn__desc-spec {
+    margin-top: 10px;
+     font-size: 20px;
+     line-height: 23px;
+ }
+
+ .campaign__title {
+    margin-top: 13px;
+     font-size: 35px;
+     line-height: 43px;
+     margin-right: 45px;
+ }
+
+ .campaign__text {
+     font-size: 13px;
+    line-height: 18px;
+    margin-top: 25px;
+    margin-left: 10px;
+    max-width: 290px;
+ }
+
+ .campaign__second {
+     max-width: 209px;
+    margin-top: 20px;
+ }
+
+ .campaign__container {
+    padding-right: 40px;
+ }
     
 }
 
@@ -2105,4 +2223,10 @@ width: 100%;
     .phases__btn a {
         font-size: 7px;
     }
+
+        .campagn__desc {
+            font-size: 17px;
+            line-height: 25px;
+            letter-spacing: 0;
+        }
 }
