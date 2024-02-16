@@ -1378,8 +1378,9 @@ box-shadow: inset -35.9px 35.9px 35.9px 0px rgba(255, 255, 255, 0.03), inset 35.
 font-family: 'Orbitron', sans-serif;
     font-size: 59px;
     font-weight: 700;
-    line-height: 74px;
+    line-height: 90px;
     letter-spacing: -2px;
+    text-align: center;
 }
 
 .instraction__title span {
@@ -1387,8 +1388,8 @@ font-family: 'Orbitron', sans-serif;
         color: var(--primery-bg-color);
         padding-left: 20px;
         padding-right: 40px;
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
       
 }
 
@@ -1441,6 +1442,41 @@ font-family: 'Orbitron', sans-serif;
 .instraction-btn {
     margin-top: 90px;
 }
+
+
+/* //////////////////////DISCLAIMER_SECTION//////////////////////////// */
+
+.disclaimer__inner {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.disclaimer__title {
+    color: rgb(179, 0, 0);
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 47px;
+    text-transform: uppercase;
+}
+
+.disclaimer__text {
+    margin-top: 21px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    max-width: 1047px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2452,9 +2488,67 @@ width: 100%;
     text-align: center;
 }
 
+.instraction__inner {
+    margin-top: 130px;
+}
+
+.instraction__title {
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.instraction__title span {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 1px;
+}
+
+.instraction__list {
+    margin-top: 36px;
+   gap: 15px;
+}
+
+.instraction__item-wrapper {
+    width: 370px;
+    height: 161px;
+}
+
+.instraction__item-wrapper::before {
+    top: -90px;
+    right: -40px;
+    width: 150px;
+    height: 150px;
+}
+
+.instraction__item-wrapper img {
+    margin-top: 8px;
+    width: 75px;
+    height: 75px;
+
+}
+
+.instraction__text {
+    font-size: 14px;
+    line-height: 16px;
+    max-width: 298px;
+    margin-top: 13px;
+}
 
 
+.instraction__container {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
+.disclaimer__title {
+    font-size: 35px;
+}
+
+.disclaimer__text {
+    font-size: 17px;
+}
 
 
 
@@ -2754,6 +2848,34 @@ width: 100%;
 
 .price__container {
     padding-right: 40px;
+}
+
+.instraction__item-wrapper {
+    width: 300px;
+    height: 161px;
+}
+
+.instraction__text {
+    max-width: 250px;
+    margin-top: 5px;
+}
+
+.disclaimer__inner {
+    margin-top: 100px;
+}
+
+.disclaimer__title {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.disclaimer__text {
+    margin-top: 8px;
+    font-size: 11px;
+    line-height: 13px;
+    max-width: 310px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 /* .stream__section iframe {
