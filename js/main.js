@@ -15,32 +15,63 @@ menuClose.addEventListener('click', ()=>{
 });
 
 
- const swiper = new Swiper('.analysis-slider', {
-        loop: true,                         
-        slidesPerView: 2,                   
-     centeredSlides: true,   
+//  const swiper = new Swiper('.analysis-slider', {
+//     loop: true,
+//         slidesPerView:2,
+//     centeredSlides: true,
+//     effect: "coverflow",
+//     coverflowEffect: {
+//         rotate: 0,
+//         depth: 200,
+//         stretch: 5,
+//         modifier: 1,
+//         scale: 1,
+//         slideShadows: true,
+//     },
+//      spaceBetween: 21,
+//      breakpoints: {
+//           1024: {
+//              spaceBetween: 40
+//          },
+//          426: {
+//              spaceBetween: 80,
+//              coverflowEffect: {
+//                  depth: 200,
+//              }
+//          },
+//      },
+//         autoplay: {
+//             delay: 2000,
+//         },
+//     })
+
+const swiper = new Swiper('.analysis-slider', {
+    loop: true,
+    slidesPerView: 'auto',
+    centeredSlides: true,
     effect: "coverflow",
-    coverflowEffect: {          
-        rotate: 0,              
-        depth: 200,             
-        stretch: 5,            
-        modifier: 1,            
-        scale: 1,               
-        slideShadows: false,    
-    },     
-     spaceBetween: 21, 
-     breakpoints: {
-          1024: {
-             spaceBetween: 40
+    coverflowEffect: {
+        rotate: 0,
+        slideShadows: false,
+    },   
+    spaceBetween: 25,
+     
+    breakpoints: {
+    
+    350: {
+      spaceBetween: 40
+    },
+   
+    480: {
+      spaceBetween: 50
+    },
+   
+    640: {
+      spaceBetween: 90
          },
-         426: {
-             spaceBetween: 80,
-            //  coverflowEffect: {
-            //      depth: 200,
-            //  } 
-         },
-     },
-        autoplay: {                         
-            delay: 2000,  
-        },   
-    })
+    
+    1024: {
+      spaceBetween: 140
+    }
+  }
+})    
