@@ -1427,8 +1427,7 @@ font-family: 'Orbitron', sans-serif;
     margin-top: 95px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: 66px;
-    row-gap: 71px;
+    gap: 71px 66px;
 }
 
 .instraction__item-wrapper {
@@ -1494,23 +1493,83 @@ font-family: 'Orbitron', sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23px;
-    max-width: 1047px;
+    max-width: 1147px;
 }
 
 
 
 
+/* //////////////////////FOOTER//////////////////////////// */
 
+.footer__inner {
+    margin-top: 100px;
+    margin-bottom: 94px;
+    display: flex;
+    position: relative;
+    
+}
 
+.footer__address {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 32px;
+    max-width: 180px;
+}
 
+.footer__list-first {
+    margin-top: 8px;
+    margin-right: 110px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px 33px;
+}
 
+.footer__list-first li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    color: var(--secondary-text-color);
+}
 
+.footer__list-first:hover,
+.footer__list-first:focus {
+    color: var(--primery-text-color);
+}
 
+.footer__list-second {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+   
+}
 
+.footer__item-second h3 {
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+}
 
+.footer__item-second li {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 11px;
+}
 
+.footer__item-second h3:hover,
+.footer__item-second h3:focus,
+.footer__item-second li:hover,
+.footer__item-second li:focus {
+    color: var(--secondary-text-color);
+}
 
+.footer__item-second:nth-child(2) {
+max-width: 122px;
+}
 
+.first__footer-section-mob {
+    display: none;
+}
 
 
 
@@ -1833,12 +1892,50 @@ font-family: 'Orbitron', sans-serif;
     margin-left: auto;
 }
 
-/* .stream__section iframe {
-    margin-top: 81px;
-    width: 560px;
-    height: 315px;
+.first__footer-section {
+    display: none;
+}
 
-} */
+.first__footer-section-mob {
+    display: block;
+    margin-top: 40px;
+    
+}
+
+.footer__list-first {
+max-width: 140px;
+
+}
+
+.footer__list-second {
+    display: block;
+}
+
+.footer__item-second {
+    overflow: hidden;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.submenu {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+    color: var(--primery-text-color);
+    /* Додайте анімацію для згортання/розгортання */
+    background-color: var(--primery-bg-color);
+    /* Задайте колір фону випадаючого вікна */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.footer__item-second:hover .submenu {
+    max-height: 300px;
+    /* Змініть на максимальну висоту вікна при з'явленні */
+}
+
+.footer__inner {
+    display: block;
+}
 }
 
 
