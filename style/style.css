@@ -818,6 +818,7 @@ img {
   width: 100%;
   height: auto;
   display: block;
+  transition: transform 0.3s ease-in-out;
 }
 
 .phases__btn a {
@@ -828,6 +829,10 @@ img {
   font-weight: 700;
   line-height: 23px;
   color: var(--primery-bg-color);
+}
+
+.phases__btn img:hover {
+    transform: rotate(360deg);
 }
 
 .phases-arrow {
@@ -1484,8 +1489,8 @@ img {
   color: var(--secondary-text-color);
 }
 
-.footer__list-first:hover,
-.footer__list-first:focus {
+.footer__list-first li:hover,
+.footer__list-first li:focus {
   color: var(--primery-text-color);
 }
 
