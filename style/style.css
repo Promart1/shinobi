@@ -877,7 +877,7 @@ img {
 
 .about__block-wrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 90px;
 }
 
@@ -941,7 +941,7 @@ img {
 /* //////////////////////CAMPAIGN_SECTION//////////////////////////// */
 
 .campaign__inner {
-  margin-top: 118px;
+  margin-top: 125px;
   z-index: 2;
   background: var(--primery-bg-color);
 }
@@ -1150,7 +1150,7 @@ img {
 /* //////////////////////PRICE_SECTION//////////////////////////// */
 
 .price__inner {
-  margin-top: 361px;
+  margin-top: 371px;
 }
 
 .price__title {
